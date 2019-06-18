@@ -4,13 +4,33 @@ The following guide outlines the steps to get started.
 **Model**
 A tenant can have multiple merchants. A merchant can have multiple cards. A card can have multiple vendor tokens.
 
-## Creating a tenant
-A tenant provides the concept and properties of a solution, app or provider of payments.
-
+## Creating an application vendor (a tenant)
+A tenant provides the concept and properties of a solution, app or provider of payments. A tenant holds one or many merchants.
 A tenant allows creating multiple merchants and multiple gateways.
 
+```curl
+curl -X POST \
+  https://api.cardtoken.io/tenants \
+  -H 'Accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{	"Name" : "Sugar Hill Services", "Email" : "somebody@sugarhill.tld" }'
+```
+
+Once a merchant is created, an e-mail is sent to activate the account. Please activate the account before adding a merchant. This e-mail and the response of the API will return a tenant key. *PLEASE STORE THIS KEY FOR FUTURE REFERENCE*.
+
 ## Creating a merchant
-A merchant holds the concept of cards, gateways and vendor tokens.
+A merchant holds the concept of cards, gateways and vendor tokens. A merchant can be a webshop, an application or a single company consuming a payment solution.
+
+```curl
+curl -X POST \
+  https://api.cardtoken.io/merchants/ \
+  -u 'paste-key-here:'
+  -H 'Accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{ "Name" : "webshop 222", "TestMode" : true }'
+```
+
+Once a merchant is created. Next step is to add a payment gateway.
 
 ---
 
