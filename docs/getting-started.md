@@ -1,7 +1,9 @@
 # Getting Started
 The following guide outlines the steps to get started.
 
-**Model**
+## Understanding the model
+Cardtoken.io is meant for application- and solution providers. As such, the model of Cardtoken.io allows seperation of merchant and tenants. 
+
 A tenant can have multiple merchants. A merchant can have multiple cards. A card can have multiple vendor tokens.
 
 ## Creating an application vendor (a tenant)
