@@ -6,7 +6,7 @@ A tenant can have multiple merchants. A merchant can have multiple cards. A merc
 
 **Supported Gateways**
 | Gateway | Vendor token | Cardtoken.js |
-|---|---|---|
+| ------- | ------------ | ------------ |
 | Adyen | Y | Y |
 | AltaPay | Y | Y |
 | DIBS D2 | Y | N |
