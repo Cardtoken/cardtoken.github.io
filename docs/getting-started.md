@@ -16,7 +16,7 @@ curl -X POST \
   -d '{	"Name" : "Sugar Hill Services", "Email" : "somebody@sugarhill.tld" }'
 ```
 
-Once a merchant is created, an e-mail is sent to activate the account. Please activate the account before adding a merchant. This e-mail and the response of the API will return a tenant key. *PLEASE STORE THIS KEY FOR FUTURE REFERENCE*.
+Once a merchant is created, an e-mail is sent to activate the account. Please activate the account before adding a merchant. This e-mail and the response of the API will return a tenant key. *PLEASE STORE THIS KEY SAFELY FOR FUTURE REFERENCE. KEEP THE KEY SAFE AND SECURE.*.
 
 ## Creating a merchant
 A merchant holds the concept of cards, gateways and vendor tokens. A merchant can be a webshop, an application or a single company consuming a payment solution.
