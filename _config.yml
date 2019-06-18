@@ -1,10 +1,10 @@
 plugins:
   - jekyll-relative-links
 theme: jekyll-theme-cayman
-title: Cardtoken API Reference.
+title: Cardtoken Doc & API Reference.
 description: Provides the developer and API Reference documentation.
 relative_links:
   enabled: true
   collections: true
 include:
-  - index.html
+  - index.md
