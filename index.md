@@ -5,6 +5,7 @@ The following guide outlines the steps to get started. Cardtoken.io is multi-pro
 A tenant can have multiple merchants. A merchant can have multiple cards. A merchant can have multiple gateways. A card can have multiple vendor tokens, based on the number of gateways.
 
 ## Supported Gateways
+| ------------ | ------------ | ------------ |
 | Gateway      | Vendor token | Cardtoken.js |
 | ------------ | ------------ | ------------ |
 | Adyen        | Y | Y |
