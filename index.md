@@ -25,5 +25,6 @@ A tenant can have multiple merchants. A merchant can have multiple cards. A merc
 
 ## Next steps
 The following steps are suggested as continuation from this point.
+* Read the [Client implementation guie](docs/client.md) here.
 * Read the [Getting Started](docs/getting-started.md) guide here.
 * Read the [API reference](api/) here.
